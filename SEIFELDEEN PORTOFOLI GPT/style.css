@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1a1a; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-link {
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #333; 
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #555; 
+}
+
+main {
+    padding: 20px;
+}
+
+#about .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+#about h2 {
+    flex: 1;
+    max-width: 600px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+#about img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #444; /* لون الخط الفاصل */
+    margin: 40px 0;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+    color: #136fe7; /* لون الروابط */
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0a3a83; 
+}
